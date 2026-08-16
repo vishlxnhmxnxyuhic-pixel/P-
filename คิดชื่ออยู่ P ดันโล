@@ -1,0 +1,315 @@
+
+if gg.alert("ꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n🇹🇭 𝐒𝐂𝐑𝐈𝐏𝐓 RAUNGG 🇹🇭\nꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n𝐎𝐖𝐍𝐄𝐑 : @Rox9888\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝐀𝐩𝐩 𝐧𝐚𝐦𝐞 : " .. gg.getTargetInfo()["label"] .. " \n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : " .. gg.getTargetInfo()["versionName"] .. " [" .. gg.getTargetInfo()["versionCode"] .. "]\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : 𝐕𝐕𝐈𝐏+\n-------------------------\n" .. "", "🅾🅺", "🅴🆇🅸🆃") ~= 1 then
+gg.setVisible(false)
+gg.clearResults()
+gg.clearList()
+end
+
+local function Func2()
+
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("99999999", gg.TYPE_FLOAT)
+gg.sleep(1000)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("99999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.1", gg.TYPE_FLOAT)
+gg.alert("Tekan logo kunci 2X")
+gg.clearResults()
+
+
+
+
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0.10000000149;1.10000002384;4.20389539e-45:85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.clearResults()
+
+
+
+
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("-0.00005", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local revert4 = gg.getResults(1000)
+    gg.editAll("9E37", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("0.0015", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local revert5 = gg.getResults(1000)
+    gg.editAll("0.0009", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    
+    
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local revert5 = gg.getResults(1000)
+    gg.editAll("", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("0.40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local revert5 = gg.getResults(1000)
+    gg.editAll("10", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+    
+    
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("17,170,432D;0D;1.0;0D:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.refineNumber("1.0",gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("2.5", gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.1;5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(8888, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9E37", gg.TYPE_FLOAT)
+
+
+    
+end
+
+-- ================================================================
+-- ฟังก์ชันที่ 3
+-- ================================================================
+local function Func3()
+    gg.toast("Loading...")
+
+    -- ชุดที่ 1: 1.1 → 20
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.clearResults()
+    gg.searchNumber('1.1', gg.TYPE_FLOAT)
+    gg.setVisible(false)
+    local count2 = gg.getResultsCount()
+    local r2 = {}
+    local orig2 = {}
+    if count2 > 0 then
+        r2 = gg.getResults(1000)
+        gg.sleep(1)
+        for i, v in ipairs(r2) do orig2[i] = v.value end
+    end
+
+    -- ชุดที่ 2: 10000000 → 2e-30
+    gg.clearResults()
+    gg.searchNumber('1E7', gg.TYPE_FLOAT)
+    gg.setVisible(false)
+    local count3 = gg.getResultsCount()
+    local r3 = {}
+    local orig3 = {}
+    if count3 > 0 then
+        r3 = gg.getResults(1000)
+        gg.sleep(1)
+        for i, v in ipairs(r3) do orig3[i] = v.value end
+    end
+
+    -- ชุดที่ 3: -0.6 → -30000
+    gg.clearResults()
+    gg.searchNumber("-0.6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local count4 = gg.getResultsCount()
+    local r4 = {}
+    local orig4 = {}
+    if count4 > 0 then
+        r4 = gg.getResults(1000)
+        gg.sleep(1)
+        for i, v in ipairs(r4) do orig4[i] = v.value end
+    end
+
+    -- ==============================================
+    -- เพิ่มชุดที่ 4: 0.001 และ 3.6
+    -- ==============================================
+    gg.clearResults()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("3.6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local count5 = gg.getResultsCount()
+    local r5 = {}
+    local orig5 = {}
+    if count5 > 0 then
+        r5 = gg.getResults(1000)
+        gg.sleep(1)
+        for i, v in ipairs(r5) do orig5[i] = v.value end
+    end
+     
+    gg.clearResults()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("0.001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.setVisible(false)
+    local count6 = gg.getResultsCount()
+    local r6 = {}
+    local orig6 = {}
+    if count6 > 0 then
+        r6 = gg.getResults(1000)
+        gg.sleep(1)
+        for i, v in ipairs(r6) do orig6[i] = v.value end
+    end
+    -- ==============================================
+
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.processResume()
+
+    gg.toast("กดไอคอน GG เพื่อ ใช้ค่า/รีค่า")
+
+    local is_active = false
+
+    while true do
+        if gg.isVisible() then
+            gg.setVisible(false)
+
+            if not is_active then
+                -- เปิด [ON]
+                if #r2 > 0 then
+                    for i, v in ipairs(r2) do v.value = '10' end
+                    gg.setValues(r2)
+                    gg.sleep(1)
+                end
+
+                if #r3 > 0 then
+                    for i, v in ipairs(r3) do v.value = '2e-30' end
+                    gg.setValues(r3)
+                    gg.sleep(1)
+                end
+
+                if #r4 > 0 then
+                    for i, v in ipairs(r4) do v.value = '-15000' end
+                    gg.setValues(r4)
+                    gg.sleep(1)
+                end
+
+                if #r5 > 0 then
+                    for i, v in ipairs(r5) do v.value = '10000' end
+                    gg.setValues(r5)
+                    gg.sleep(1)
+                end
+                
+                if #r6 > 0 then
+                    for i, v in ipairs(r6) do v.value = '0.1' end
+                    gg.setValues(r6)
+                    gg.sleep(1)
+                end
+
+                is_active = true
+                gg.toast("[ON]")
+            else
+                -- ปิด [OFF] คืนค่าเดิม
+                if #r2 > 0 then
+                    for i, v in ipairs(r2) do v.value = orig2[i] end
+                    gg.setValues(r2)
+                end
+
+                if #r3 > 0 then
+                    for i, v in ipairs(r3) do v.value = orig3[i] end
+                    gg.setValues(r3)
+                end
+
+                if #r4 > 0 then
+                    for i, v in ipairs(r4) do v.value = orig4[i] end
+                    gg.setValues(r4)
+                end
+
+                if #r5 > 0 then
+                    for i, v in ipairs(r5) do v.value = orig5[i] end
+                    gg.setValues(r5)
+                end
+                
+                if #r6 > 0 then
+                    for i, v in ipairs(r6) do v.value = orig6[i] end
+                    gg.setValues(r6)
+                end
+
+                is_active = false
+                gg.toast("[OFF]")
+            end
+            gg.setVisible(false)
+        end
+        gg.sleep(1)
+    end
+end
+
+-- ================================================================
+-- ฟังก์ชันที่ 4 - ออกจากสคริปต์
+-- ================================================================
+local function Func4()
+    gg.clearResults()
+    gg.clearList()
+    gg.setVisible(false)
+    os.exit()
+end
+
+-- ================================================================
+-- ระบบเมนูหลัก 
+-- ================================================================
+local function START()
+    gg.setVisible(false)
+
+    local menu_title = ""
+    .. " ┏━━━━━━━━༻❁༺━━━━━━━┓ \n"
+    .. "         ‧˚꒰🏴‍☠️୭ ˚. ᵎᵎ BY - RAHU ᵎᵎ 🏴‍☠️ \n"
+    .. " ┗━━━━━━━━༻❁༺━━━━━━━┛\n"
+
+    local selected = gg.multiChoice(
+        {"ดันโลสูตรหมก สวีเดน [ ห้องออนไลน์ ]", " สูตรหมกเต็มบบ ตุรกีขี้ไม่ล้าง [ ห้องออนไลน์ ]", "ออก"},
+        nil,
+        menu_title
+    )
+
+    if selected == nil then
+        gg.setVisible(false)
+        return
+    end
+
+    if selected[1] then Func2() end
+    if selected[2] then Func3() end
+    if selected[3] then Func4() end
+
+    gg.setVisible(false)
+end
+
+-- แสดงเมนูครั้งแรกตอนรันสคริปต์
+gg.setVisible(false)
+START()
+
+-- ลูปสแตนด์บายรอให้กดไอคอน GG เพื่อเปิดเมนูใหม่โดยไม่ต้องรันสคริปต์ซ้ำ
+while true do
+    if gg.isVisible() then
+        gg.setVisible(false)
+        START()
+    end
+    gg.sleep(100)
+end
+
