@@ -7,29 +7,7 @@ end
 
 local function Func2()
 
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("99999999", gg.TYPE_FLOAT)
-gg.sleep(1000)
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("99999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("0.1", gg.TYPE_FLOAT)
-gg.alert("Tekan logo kunci 2X")
-gg.clearResults()
 
-
-
-
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("0.10000000149;1.10000002384;4.20389539e-45:85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("3", gg.TYPE_FLOAT)
-gg.clearResults()
 
 
 
