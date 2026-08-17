@@ -1,5 +1,6 @@
 local function CheckMyGG()
     local Allowed_GG_Package = "vip.rahu.mod"
+    local Allowed_GG_Package = "vip.rahugg.mod"
     local cachePath = gg.EXT_CACHE_DIR or ""
 
     if not string.find(string.lower(cachePath), Allowed_GG_Package) then
