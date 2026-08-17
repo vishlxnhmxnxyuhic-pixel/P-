@@ -1,3 +1,39 @@
+local function CheckMyGG()
+    local Allowed_GG_Package = "vip.rahu.mod"
+    local cachePath = gg.EXT_CACHE_DIR or ""
+
+    if not string.find(string.lower(cachePath), Allowed_GG_Package) then
+        gg.alert("🚫 [สคริปต์นี้ใช้ได้เฉพาะแอปของเราเท่านั้น]\nกรุณาดาวน์โหลดแอปที่ถูกต้องก่อนใช้งาน")
+        os.exit()
+        return
+    end
+end
+
+-- 2. พอสร้างเสร็จแล้ว ค่อยเรียกใช้งานตรงนี้
+CheckMyGG()
+
+
+
+
+function Loading()
+    for p = 1, 100 do
+        local filled = math.floor(p / 10)
+        local empty = 10 - filled
+        local bar = string.rep("■", filled) .. string.rep("□", empty)
+        
+        gg.toast(string.format("⏳ Loading... [%s] %d%%", bar, p), true)
+        gg.sleep(10)
+    end
+end
+
+Loading()
+
+
+
+
+
+
+
 
 if gg.alert("ꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n🇹🇭 𝐒𝐂𝐑𝐈𝐏𝐓 RAUNGG 🇹🇭\nꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n𝐎𝐖𝐍𝐄𝐑 : @Rox9888\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝐀𝐩𝐩 𝐧𝐚𝐦𝐞 : " .. gg.getTargetInfo()["label"] .. " \n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : " .. gg.getTargetInfo()["versionName"] .. " [" .. gg.getTargetInfo()["versionCode"] .. "]\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : 𝐕𝐕𝐈𝐏+\n-------------------------\n" .. "", "🅾🅺", "🅴🆇🅸🆃") ~= 1 then
 gg.setVisible(false)
