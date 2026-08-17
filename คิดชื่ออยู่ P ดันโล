@@ -16,6 +16,52 @@ CheckMyGG()
 
 
 
+function CheckTargetGame()
+    -- 1. กำหนดคำค้นหาแพ็คเกจตามที่สั่ง
+    local Allowed_Package = "carparking"
+
+    -- 2. ดึงข้อมูลของเกมที่ GameGuardian กำลังเลือกทำงานอยู่
+    local info = gg.getTargetInfo()
+
+    -- 3. ตรวจสอบเงื่อนไขการรันด้วยระบบ Match ข้อความ
+    -- หากไม่ได้เลือกเกม หรือชื่อแพ็คเกจไม่มีคำว่า carparking อยู่ข้างใน
+    if info == nil or not string.match(string.lower(info.packageName), Allowed_Package) then
+        gg.alert("🚫 [ตรวจพบความผิดปกติ]\nสคริปต์นี้อนุญาตให้รันบนเกม Car Parking Multiplayer เท่านั้น!\nระบบจะปิดการทำงานทันที...")
+
+        -- ล้างประวัติผลลัพธ์และสั่งปิดสคริปต์
+        gg.clearResults()
+        os.exit()
+    end
+end
+
+
+
+local function CheckGameVersion()
+    local Allowed_Version = "4.9.10"  -- ⚠️ อนุญาตเฉพาะเวอร์ชั่นนี้ (รวมเลขย่อยข้างหลัง เช่น 4.9.10.2, 4.9.10.3)
+
+    local info = gg.getTargetInfo()
+
+    if info == nil or info.versionName == nil then
+        gg.alert("🚫 [ไม่พบข้อมูลเวอร์ชั่นเกม]\nกรุณาเปิดเกมให้ถูกต้องก่อนใช้งาน")
+        os.exit()
+    end
+
+    local currentVersion = info.versionName
+    local pattern = "^" .. Allowed_Version:gsub("%.", "%%.")
+
+    if not string.find(currentVersion, pattern) then
+        gg.alert("🚫 [เวอร์ชั่นเกมไม่ตรงกับที่สคริปต์รองรับ]\nเวอร์ชั่นที่รองรับ: " .. Allowed_Version .. ".x เท่านั้น\nเวอร์ชั่นที่ติดตั้ง: " .. currentVersion .. "\nสคริปต์นี้ไม่รองรับเวอร์ชั่นนี้แล้ว")
+        os.exit()
+    end
+end
+
+
+CheckGameVersion()
+
+
+
+
+
 function Loading()
     for p = 1, 100 do
         local filled = math.floor(p / 10)
